@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5281691b-6744-4d2e-a2aa-541970089290" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/trumm/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/trumm/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,29 +27,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eu/trumm/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+            <state relative-caret-position="519">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#826#827#0" expanded="true" />
                 <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,7 +163,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciTest">
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.trumm.Fibonacci" />
+      <module name="Fibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.trumm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fibonacci" />
       <extension name="coverage">
@@ -174,7 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.fibonacciForLoop1NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest.fibonacciRecursionManyNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fibonacci" />
       <extension name="coverage">
         <pattern>
@@ -184,39 +202,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="eu.trumm" />
       <option name="MAIN_CLASS_NAME" value="eu.trumm.FibonacciTest" />
-      <option name="METHOD_NAME" value="fibonacciForLoop1NumberTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciTest.fibonacciForLoop2NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fibonacci" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.trumm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eu.trumm" />
-      <option name="MAIN_CLASS_NAME" value="eu.trumm.FibonacciTest" />
-      <option name="METHOD_NAME" value="fibonacciForLoop2NumbersTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciTest.fibonacciForLoopManyNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fibonacci" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.trumm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eu.trumm" />
-      <option name="MAIN_CLASS_NAME" value="eu.trumm.FibonacciTest" />
-      <option name="METHOD_NAME" value="fibonacciForLoopManyNumbersTest" />
+      <option name="METHOD_NAME" value="fibonacciRecursionManyNumbersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,20 +224,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciTest.fibonacciWhileLoopManyNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.trumm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.trumm" />
+      <option name="MAIN_CLASS_NAME" value="eu.trumm.FibonacciTest" />
+      <option name="METHOD_NAME" value="fibonacciWhileLoopManyNumbersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.FibonacciTest" />
-      <item itemvalue="JUnit.FibonacciTest.fibonacciForLoop1NumberTest" />
-      <item itemvalue="JUnit.FibonacciTest.fibonacciForLoop2NumbersTest" />
-      <item itemvalue="JUnit.FibonacciTest.fibonacciForLoopManyNumbersTest" />
       <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoop1NumberTest" />
+      <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoopManyNumbersTest" />
+      <item itemvalue="JUnit.FibonacciTest.fibonacciRecursionManyNumbersTest" />
+      <item itemvalue="Application.Fibonacci" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="JUnit.FibonacciTest.fibonacciRecursionManyNumbersTest" />
+        <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoopManyNumbersTest" />
         <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoop1NumberTest" />
-        <item itemvalue="JUnit.FibonacciTest.fibonacciForLoopManyNumbersTest" />
-        <item itemvalue="JUnit.FibonacciTest.fibonacciForLoop2NumbersTest" />
-        <item itemvalue="JUnit.FibonacciTest.fibonacciForLoop1NumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,21 +271,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciTest - 2019.04.11 at 19h 24m 47s.xml">
-      <configuration name="FibonacciTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacciRecursionManyNumbersTest - 2019.04.11 at 19h 25m 49s.xml">
-      <configuration name="FibonacciTest.fibonacciRecursionManyNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest - 2019.04.11 at 19h 32m 49s.xml">
-      <configuration name="FibonacciTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacciForLoop1NumberTest - 2019.04.11 at 19h 34m 31s.xml">
-      <configuration name="FibonacciTest.fibonacciForLoop1NumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacciForLoop1NumberTest - 2019.04.11 at 19h 36m 40s.xml">
-      <configuration name="FibonacciTest.fibonacciForLoop1NumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FibonacciTest_fibonacciForLoop2NumbersTest - 2019.04.11 at 19h 37m 06s.xml">
       <configuration name="FibonacciTest.fibonacciForLoop2NumbersTest" configurationId="JUnit" />
     </history-entry>
@@ -298,6 +285,21 @@
     </history-entry>
     <history-entry file="FibonacciTest - 2019.04.11 at 19h 42m 29s.xml">
       <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciWhileLoop1NumberTest - 2019.04.11 at 19h 48m 21s.xml">
+      <configuration name="FibonacciTest.fibonacciWhileLoop1NumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest - 2019.04.11 at 19h 49m 16s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest - 2019.04.11 at 19h 49m 53s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciWhileLoopManyNumbersTest - 2019.04.11 at 20h 06m 56s.xml">
+      <configuration name="FibonacciTest.fibonacciWhileLoopManyNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciRecursionManyNumbersTest - 2019.04.11 at 20h 07m 40s.xml">
+      <configuration name="FibonacciTest.fibonacciRecursionManyNumbersTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -314,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32935324" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32935324" />
@@ -340,26 +342,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/trumm/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        <state relative-caret-position="519">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#826#827#0" expanded="true" />
             <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/trumm/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
           </folding>
         </state>
       </provider>

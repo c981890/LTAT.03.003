@@ -6,6 +6,10 @@ import java.util.Collections;
 import java.util.List;
 
 public class Fibonacci {
+
+    public static void main(String[] args) {
+        System.out.println(fibonacciTailRecursion(1425877, 0, 1));
+    }
     static List<Integer> fibonacciRecursion(int numbersInSequence) {
         if (numbersInSequence == 1) {
             return Collections.singletonList(0);
@@ -18,7 +22,7 @@ public class Fibonacci {
         }
     }
 
-    public static List<Integer> fibonacciForLoop(int numbersInSequence) {
+    static List<Integer> fibonacciForLoop(int numbersInSequence) {
         if (numbersInSequence == 1) {
             return Collections.singletonList(0);
         } else if (numbersInSequence == 2) {
@@ -32,7 +36,7 @@ public class Fibonacci {
         }
     }
 
-    public static List<Integer> fibonacciWhileLoop(int numbersInSequence) {
+    static List<Integer> fibonacciWhileLoop(int numbersInSequence) {
         if (numbersInSequence == 1) {
             return Collections.singletonList(0);
         } else if (numbersInSequence == 2) {
@@ -46,5 +50,13 @@ public class Fibonacci {
             }
             return fibonacciNumbers;
         }
+    }
+
+    static int fibonacciTailRecursion(int numbersInSequence, int a, int b) {
+        if (numbersInSequence == 0)
+            return a;
+        if (numbersInSequence == 1)
+            return b;
+        return fibonacciTailRecursion(numbersInSequence - 1, b, a+b);
     }
 }
