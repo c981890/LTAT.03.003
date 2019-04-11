@@ -20,7 +20,7 @@ public class FibonacciTest {
 
     @Test
     public void fibonacciRecursionManyNumbersTest() {
-        assertEquals(Arrays.asList(0, 1, 1, 2, 3, 5, 8), Fibonacci.fibonacciRecursion(10000));
+        assertEquals(Arrays.asList(0, 1, 1, 2, 3, 5, 8), Fibonacci.fibonacciRecursion(100));
     }
 
     @Test
