@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5281691b-6744-4d2e-a2aa-541970089290" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/eu/trumm/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/trumm/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/trumm/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eu/trumm/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+            <state relative-caret-position="150">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
@@ -163,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="JUnit.FibonacciTest.fibonacciRecursionManyNumbersTest">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eu.trumm.Fibonacci" />
       <module name="Fibonacci" />
@@ -249,8 +248,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="JUnit.FibonacciTest.fibonacciRecursionManyNumbersTest" />
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoopManyNumbersTest" />
         <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.FibonacciTest.fibonacciWhileLoop1NumberTest" />
@@ -360,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/trumm/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />

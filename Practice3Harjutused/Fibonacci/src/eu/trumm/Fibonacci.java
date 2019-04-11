@@ -8,7 +8,7 @@ import java.util.List;
 public class Fibonacci {
 
     public static void main(String[] args) {
-        System.out.println(fibonacciTailRecursion(1425877, 0, 1));
+        System.out.println(fibonacciTailRecursion(10000, 0, 1));
     }
     static List<Integer> fibonacciRecursion(int numbersInSequence) {
         if (numbersInSequence == 1) {
