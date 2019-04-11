@@ -53,10 +53,28 @@ public class Fibonacci {
     }
 
     static int fibonacciTailRecursion(int numbersInSequence, int a, int b) {
-        if (numbersInSequence == 0)
+        if (numbersInSequence == 0) {
             return a;
-        if (numbersInSequence == 1)
+        } else if (numbersInSequence == 1) {
             return b;
-        return fibonacciTailRecursion(numbersInSequence - 1, b, a+b);
+        } else {
+            return fibonacciTailRecursion(numbersInSequence - 1, b, a + b);
+        }
     }
+
+    static List<Integer> fibonacciTailRecursionList(int numbersInSequence, int a, int b) {
+        if (numbersInSequence == 0) {
+            return Collections.singletonList(0);
+        }else if (numbersInSequence == 1) {
+            List<Integer> fibonacciNumbers = new ArrayList<>();
+            fibonacciNumbers.add(b);
+            return fibonacciNumbers;
+        } else {
+            fibonacciTailRecursion(numbersInSequence - 1, b, a+b);
+        }
+        
+
+    }
+
+
 }
