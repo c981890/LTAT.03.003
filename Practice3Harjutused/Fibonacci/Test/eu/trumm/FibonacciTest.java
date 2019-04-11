@@ -43,4 +43,13 @@ public class FibonacciTest {
         assertEquals(Collections.singletonList(0), Fibonacci.fibonacciWhileLoop(1));
     }
 
+    @Test
+    public void fibonacciWhileLoop2NumbersTest() {
+        assertEquals(Arrays.asList(0, 1), Fibonacci.fibonacciWhileLoop(2));
+    }
+
+    @Test
+    public void fibonacciWhileLoopManyNumbersTest() {
+        assertEquals(Arrays.asList(0, 1, 1, 2, 3, 5, 8), Fibonacci.fibonacciWhileLoop(7));
+    }
 }
